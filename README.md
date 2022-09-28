@@ -23,4 +23,4 @@ Se vira
 
 ## Inspirações
 
-https://github.com/caffeine-squad/modelagem_db
+https://github.com/caffeine-squad/modelagem_bd
