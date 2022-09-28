@@ -16,7 +16,8 @@ Modelo Lógico
 
 
 ## Licença
-Esse código está no domínio público, porque nós não queremos ter responsabilidade nenhuma por ele
+Esse código está no domínio público, porque nós não queremos ter responsabilidade nenhuma por ele.
+
 Se vira
 
 
