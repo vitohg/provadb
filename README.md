@@ -1,3 +1,25 @@
-# Trabalho de Banco de Dados
+# Prova de banco de dados
 
-Vitor Hugo e Pedro Lucas 
+Integrantes:
+
+- Pedro Lucas
+- Vitor Hugo
+
+Modelo Conceitual
+<img src="Conceitual_1c.png">
+
+Modelo Lógico 
+<img src="Logico_2c.png">
+
+## Explicações
+
+
+
+## Licença
+Esse código está no domínio público, porque nós não queremos ter responsabilidade nenhuma por ele
+Se vira
+
+
+## Inspirações
+
+https://github.com/caffeine-squad/modelagem_db
