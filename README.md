@@ -9,7 +9,7 @@ Modelo Conceitual
 <img src="Conceitual_1c.png">
 
 Modelo Lógico 
-<img src="Logico_2c.png">
+<img src="Lógico_2c.png">
 
 ## Explicações
 
