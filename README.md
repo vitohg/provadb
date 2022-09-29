@@ -44,11 +44,20 @@ Nela possuímos os atributos/colunas:
 ## Tabela <i>professores</i>
 A tabela <i>professores</i> se refere ao/s professor/es que irá ter em cada turma
 Nela possuímos os atributos/colunas:
--
--
+- COD_PROF: chave primária da tabela
+- nome: nome do professor
+- endereco:
+- cidade:
 
 
 ## Tabela <i>historico</i>
+A tabela <i>historico</i> se refere as chaves estrangeiras conectadass a ela 
+Nela possuímos os atributos/colunas:
+- COD_DISC: chave estrangeira
+- COD_TURMA: chave estrangeira
+- COD_PROF: chave estrangeira
+- ano: ano da tabela historico
+- MAT: chave estrangeira
 
 
 
