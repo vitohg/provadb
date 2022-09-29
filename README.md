@@ -18,7 +18,7 @@ Integrantes:
 # Descrição das tabelas do modelo Lógico
 
 ## Tabela <i>alunos</i>
-A tabela <i>alunos</i> se refere aos dados dos alunos cadastrados nesta escola.
+Tabela <i>alunos</i> se refere aos dados dos alunos cadastrados nesta escola.
 Nela possuímos os atributos/colunas:
 - MAT: matricula do aluno/chave primária da tabela
 - nome: nome do aluno cadastrado
@@ -26,7 +26,7 @@ Nela possuímos os atributos/colunas:
 - cidade: informação importante referente ao aluno e onde se localiza sua residencia
 
 ## Tabela <i>turma</i>
-A table <i>turma</i> se refere a turma em que as disciplinas e professores foram atribuidos a ela para 
+Table <i>turma</i> se refere a turma em que as <i>disciplinas</i> e <i>professores</i> foram atribuidos a ela.
 Nela possuímos os atributos/colunas:
 - COD_TURMA: deveria ser a chave primária(ouve erros nesta tabela)
 - COD_DISC: chave estrangeira
@@ -35,23 +35,22 @@ Nela possuímos os atributos/colunas:
 - horario: harario em que cada turma irá ter, referente as aulas
 
 ## Tabela <i>disciplinas</i>
-A tabela <i>disciplinas</i> se refere as disciplinas em que a turma que o aluno foi atribuido irá ter.
+Tabela <i>disciplinas</i> se refere as disciplinas em que a <i>turma</i> que o aluno foi atribuido irá ter.
 Nela possuímos os atributos/colunas:
 - COD_DISC: chave primária da tabela
 - nome_disc: o nome das disciplinas
 - carga_har: a carga horaria em que cada disciplina irá ter
 
 ## Tabela <i>professores</i>
-A tabela <i>professores</i> se refere ao/s professor/es que irá ter em cada turma
+Tabela <i>professores</i> se refere ao <i>professores</i> que irá ter em cada <i>turma</i>.
 Nela possuímos os atributos/colunas:
 - COD_PROF: chave primária da tabela
 - nome: nome do professor
-- endereco:
-- cidade:
-
+- endereco: endereço do professor
+- cidade: informação importante referente ao professor e onde se localiza sua residencia
 
 ## Tabela <i>historico</i>
-A tabela <i>historico</i> se refere as chaves estrangeiras conectadass a ela 
+Tabela <i>historico</i> se refere a todas as outras tabelas tornando suas chaves primária para cheves estrangeira.
 Nela possuímos os atributos/colunas:
 - COD_DISC: chave estrangeira
 - COD_TURMA: chave estrangeira
@@ -59,7 +58,13 @@ Nela possuímos os atributos/colunas:
 - ano: ano da tabela historico
 - MAT: chave estrangeira
 
-
+## Tabela <i>relacionamento_1/2/3/4</i>
+Tabela <i>relacionamento_1/2/3/4</i> tabelas de ligações entre <i>alunos</i> e <i>historico</i>; <i>turma</i> e <i>historico</i>; <i>disciplinas</i> e <i>turma</i>; <i>professores</i> e <i>turma</i>.
+Nela possuímos os atributos/colunas:
+- fk_alunos_MAT: chave estrangeira que faz referência a tabela <i>alunos</i>
+- fk_turma_COD_TURMA: chave estrangeira que faz referência a tabela <i>turma</i>
+- fk_disciplinas_COD_DISC: chave estrangeira que faz referência a tabela <i>disciplinas</i>
+- fk_professores_COD_PROF: chave estrangeira que faz referência a tabela <i>professores</i>
 
 ## Licença
 Esse código está no domínio público, porque nós não queremos ter responsabilidade nenhuma por ele.
